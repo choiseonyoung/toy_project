@@ -10,8 +10,11 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class BoardController {
 
-    @Autowired
-    private BoardService boardService;
+    private final BoardService boardService;
+
+    public BoardController(BoardService boardService) {
+        this.boardService = boardService;
+    }
 
     @GetMapping("/board/write")
     public String write() {
