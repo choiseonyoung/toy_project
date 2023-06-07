@@ -2,7 +2,6 @@ package com.likelion.toy.controller;
 
 import com.likelion.toy.entity.Board;
 import com.likelion.toy.service.BoardService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

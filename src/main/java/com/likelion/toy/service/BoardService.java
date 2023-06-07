@@ -2,7 +2,6 @@ package com.likelion.toy.service;
 
 import com.likelion.toy.entity.Board;
 import com.likelion.toy.repository.BoardRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
